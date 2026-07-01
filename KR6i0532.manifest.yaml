@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0532/v1
+canonical_location: https://kanripo.org/bkk/KR6i0532/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 弟子死復生經
+  identifiers:
+    alt_id:
+    - T17n0826
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0826.xml
+    old_id: T17n0826
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0532_000.yaml, hash: 'sha256:fbd6f405cb085fe60844728305cfc43be97703ad64b8cb3ef4b93c3cf543873c'}
+  - {seq: 1, filename: KR6i0532_001.yaml, hash: 'sha256:fa805c441468db64ebd3364fe888b972d02e5b4ae76da57009e6c974fdc1a5ae'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0532_001.markers.yaml, hash: 'sha256:1bca8b047ed717e914bbbf20734e77a1fd4f0dae05bdd1b55055c5209882988a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0532_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2532
+  label: 弟子死復生經
+  type: juan
+  level: 1
+hash: sha256:02e28cfca951bbf59e81248aad7960a94b93d3af57aca82f12c26817a9f3dd48
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

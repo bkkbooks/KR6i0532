@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0532/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 弟子死復生經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0826.xml
+    old_id: T17n0826
+hash: sha256:fbd6f405cb085fe60844728305cfc43be97703ad64b8cb3ef4b93c3cf543873c
