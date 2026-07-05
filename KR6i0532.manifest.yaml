@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0532_000.yaml, hash: 'sha256:fbd6f405cb085fe60844728305cfc43be97703ad64b8cb3ef4b93c3cf543873c'}
-  - {seq: 1, filename: KR6i0532_001.yaml, hash: 'sha256:fa805c441468db64ebd3364fe888b972d02e5b4ae76da57009e6c974fdc1a5ae'}
+  - {seq: 1, filename: KR6i0532_001.yaml, hash: 'sha256:853a4f9ba2bd64d480fbf99b33cadfc30e2e1e6df66ab4648a5aacdbc26791db'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0532_001.markers.yaml, hash: 'sha256:1bca8b047ed717e914bbbf20734e77a1fd4f0dae05bdd1b55055c5209882988a'}
+  - {seq: 0, role: markers, filename: assets/KR6i0532_000.markers.yaml, hash: 'sha256:311998389a45c619c6f653295e8d988d99084e2a35441e8148c440220d2eff02'}
+  - {seq: 1, role: markers, filename: assets/KR6i0532_001.markers.yaml, hash: 'sha256:8e9efbaad40f2ff2d7f8ffb656ec08fb58a51374d7b74475e0541c95729ec5b0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 弟子死復生經
   type: juan
   level: 1
-hash: sha256:02e28cfca951bbf59e81248aad7960a94b93d3af57aca82f12c26817a9f3dd48
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7145a4aa52d9b5720255ea6ec6d43ee3d7a407aab6da3b959ff01c77fc3a2e77
